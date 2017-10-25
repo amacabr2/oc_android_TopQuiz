@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iut_bm_info.amacabr2.topquiz.activities.BestScoreActivity">
+
+    <TableLayout
+        android:id="@+id/activityBestScore_tableBestScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0">
+    </TableLayout>
+
+    <Button
+        android:id="@+id/activityBestScore_buttonOrderByScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/activityBestScore_tableBestScore"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="59dp"
+        android:text="@string/btnOrderByScore" />
+
+    <Button
+        android:id="@+id/activityBestScore_buttonOrderByName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/activityBestScore_buttonOrderByScore"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:text="@string/btnOrderByName" />
+
+    <Button
+        android:id="@+id/activityBestScore_return"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/activityBestScore_buttonOrderByName"
+        android:layout_alignLeft="@+id/activityBestScore_buttonOrderByScore"
+        android:layout_alignRight="@+id/activityBestScore_buttonOrderByName"
+        android:layout_alignStart="@+id/activityBestScore_buttonOrderByScore"
+        android:layout_below="@+id/activityBestScore_buttonOrderByScore"
+        android:layout_marginTop="33dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/btnReturn"
+        android:textColor="@android:color/background_light" />
+
+
+</RelativeLayout>

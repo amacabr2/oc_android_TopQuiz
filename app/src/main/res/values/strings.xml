@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TopQuiz</string>
+    <string name="welcome">Welcome to TopQuiz. What\'s your name?</string>
+    <string name="lastScore"></string>
+    <string name="go">Let\'s go</string>
+    <string name="textQuestion">TextQuestion</string>
+    <string name="answer1">Answer1</string>
+    <string name="answer2">Answer2</string>
+    <string name="answer3">Answer3</string>
+    <string name="answer4">Answer4</string>
+    <string name="best_score">Best score</string>
+    <string name="firstname">Firstname</string>
+    <string name="btnOrderByScore">By best score</string>
+    <string name="btnOrderByName">By name</string>
+    <string name="btnReturn">Return</string>
+</resources>
